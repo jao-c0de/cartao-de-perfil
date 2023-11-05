@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+span {
+    color: hsl(227, 10%, 46%);;
+}
+
+.texto {
+    font-size: 25px;
+    font-family: 'Kumbh Sans', sans-serif;    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cartao {
+    background-color: aliceblue;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.gato {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.nome {
+    text-align: center;
+    border-bottom: 2px solid darkgrey;
+    margin-top: 10px; 
+}
+
+.nome-gato {
+    font-size: 30px;
+}
+  
+
+.informacoes {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.numeros-perfil li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+
